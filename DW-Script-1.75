@@ -1901,12 +1901,6 @@ local Section = Tab:CreateSection("Healing/misc")
     end,
  })
  local Button = Tab:CreateButton({
-    Name = "Control Scav interface (By: incorrectdecisions on discord)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/IncorrectDecisions/silver-octo-adventure/main/DW%20Control%20GUI.lua"))()
-    end,
- })
- local Button = Tab:CreateButton({
     Name = "hanger thoughts(press b)",
     Callback = function()
         local uis = game:GetService("UserInputService")
